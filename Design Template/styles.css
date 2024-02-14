@@ -1,0 +1,62 @@
+/* General Rules */
+body {
+  
+}
+
+span, p, li {
+  font-family: 'Lora', serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Color Rules */
+.color-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 25px;
+}
+
+.color-container .color-sample {
+  display: grid;
+  grid-template-columns: 50px auto;
+  gap: 10px;
+}
+
+.color-container .grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+#color-charcoal {
+  background-color: #264653;
+}
+#color-persiangreen {
+  background-color: #2A9D8F;
+}
+#color-saffron {
+  background-color: #E9C46A;
+}
+#color-sandybrown {
+  background-color: #F4A261;
+}
+#color-burntsienna {
+  background-color: #E76F51;
+}
+
+/* Font Rules*/
+.lora * {
+  font-family: 'Lora', serif;
+}
+
+.playfairdisplay * {
+    font-family: 'Playfair Display', serif;
+}
+
+.jetbrainsmono * {
+    font-family: 'JetBrains Mono', monospace;
+}
