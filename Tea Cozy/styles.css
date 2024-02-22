@@ -8,6 +8,7 @@ body {
     margin: 0px;
 }
 
+/* HEADER */
 #header {
     position: fixed;
     display: flex;
@@ -28,14 +29,54 @@ body {
     padding: 0px 10px;
 }
 
+/* MISSION */
 #mission {
+    display: flex;
+    align-items: center;
     background-image: url("img/img-mission-background.webp");
     font-weight: bold;
     height: 700px;
+    width: 1200px;
+    margin: auto;
+    background-repeat: no-repeat;
 }
 
+#mission .title {
+    width: 100%;
+    background-color: black;
+}
+
+#mission .title * {
+    margin: 16px;
+} 
+
+/* FEATURED */
 #featured {
     padding-top: 32px;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
     width: 1000px;
+}
+
+#tea-selection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tea-card {
+    padding: 0px 16px;
+}
+
+.tea-card p {
+    margin-top: 16px;
+}
+
+.tea-card img {
+    height: 200px;
+    width: 300px;
 }
