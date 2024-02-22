@@ -30,5 +30,12 @@ body {
 
 #mission {
     background-image: url("img/img-mission-background.webp");
+    font-weight: bold;
     height: 700px;
+}
+
+#featured {
+    padding-top: 32px;
+    font-weight: bold;
+    width: 1000px;
 }
