@@ -1,3 +1,4 @@
+
 body {
     background-color: black;
     font-family: Helvetica, sans-serif;
@@ -5,7 +6,7 @@ body {
     font-size: 22px;
     color: seashell;
     opacity: 0.9;
-    margin: 0px;
+    margin: 0;
 }
 
 /* HEADER */
@@ -34,10 +35,9 @@ body {
     display: flex;
     align-items: center;
     background-image: url("img/img-mission-background.webp");
+    background-position: center;
     font-weight: bold;
     height: 700px;
-    width: 1200px;
-    margin: auto;
     background-repeat: no-repeat;
 }
 
@@ -79,4 +79,50 @@ body {
 .tea-card img {
     height: 200px;
     width: 300px;
+}
+
+/* LOCATIONS */
+#locations {
+    background-image: url("img/img-locations-background.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin: 32px unset;
+}
+
+#locations h2 {
+    padding-top: 64px;
+    margin-block-end: 0px;
+}
+
+#location-container {
+    display: flex;
+    justify-content: center;
+}
+
+.location-card {
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+    margin: 20px;
+}
+
+.location-card  * {
+    margin: 16px;
+}
+
+/* FOOTER */
+#footer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#footer h2, #footer h5 {
+    margin: 16px;
+}
+
+#footer h6 {
+    text-align: left;
 }
